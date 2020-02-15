@@ -1,0 +1,129 @@
+/* Colors and fonts from my website */ 
+body {
+	background-color: rgb(230, 230, 230);
+	color: black;/* couleur de fond en noir*/
+	font-family: tahoma;
+		line-height: 1.8;
+		letter-spacing: 1px;
+	background-image: url(images/background_image.jpg);
+}
+
+h1, h2, h3 {
+	font-family: times;
+
+}
+
+h1 {
+	color: black;
+	font-weight: 100;
+	font-size: 40px;
+	font-family: 'Playfair Display', serif;
+	line-height: 1.8;
+	letter-spacing: 1px;
+}
+h2 {
+	color: rgb(100, 100, 100);
+	font-size: 24px;
+	font-weight: lighter;
+	font-family: 'Crimson Text', serif;
+	line-height: 1.8;
+	letter-spacing: 1px;
+
+}
+
+a {
+	text-decoration: none;
+	color: #6B72E1;
+	transition: color 0.3s ease;
+}
+a:hover {
+	color : magenta;
+	text-decoration: underline;
+}
+
+#maphoto {
+	width: 120px;
+	border-radius: 50%;
+	box-shadow: 5px 5px 3px black;
+	border: 5px;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+p {
+	color: black;
+}
+
+/* Custom design with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+}
+
+.card-white {
+		width: 700px; 
+		margin: 40px auto; 
+		border-radius: 4px; 
+		background: white; 
+		padding: 60px; 
+		box-shadow: 0px 10px 30px rgba(0,0,0);
+		align-content: center;
+}
+
+.btn-blue {
+	background-color: #6B72E1;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+#intoduction p {
+	margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
